@@ -1,0 +1,7 @@
+{
+  "functions": {
+    "api/cron/send-reminders/route.js": {
+      "schedule": "30 1,13 * * *"
+    }
+  }
+}
