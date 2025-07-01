@@ -1,7 +1,8 @@
 {
-  "functions": {
-    "api/cron/send-reminders/route.js": {
+  "crons": [
+    {
+      "path": "/api/cron/send-reminders",
       "schedule": "30 1,13 * * *"
     }
-  }
+  ]
 }
